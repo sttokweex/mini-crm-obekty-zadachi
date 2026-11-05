@@ -9,9 +9,9 @@ React + TypeScript + Vite, Supabase Auth и PostgreSQL. Интерфейс на 
 3. В **Authentication → Users** вручную создайте минимум 3 пользователей с подтверждённым email: постановщика и двух исполнителей. Триггер автоматически создаст профили с ролью исполнителя.
 4. Измените три email в [`supabase/seed_demo.sql`](supabase/seed_demo.sql) и выполните файл в SQL Editor. Скрипт назначит первого пользователя постановщиком и добавит 3 объекта, 5 задач и историю. Запускайте его один раз на пустой базе.
 5. Скопируйте `.env.example` в `.env.local`, впишите `VITE_SUPABASE_URL` и **publishable/anon key** из **Project Settings → API**. Не используйте `service_role` или secret key.
-6. Выполните `npm ci`, затем `npm run dev`. Для проверки production-сборки — `npm run build`.
+6. Выполните `npm ci`, затем `npm run dev`. Для проверки production-сборки после настройки переменных — `npm run build`.
 
-На Vercel/Netlify: импортируйте репозиторий, укажите две переменные `VITE_SUPABASE_URL` и `VITE_SUPABASE_ANON_KEY`; build command `npm run build`, publish directory `dist`. После публикации войдите под каждым из трёх пользователей.
+Пошаговая публикация на Vercel: [`DEPLOY_VERCEL.md`](DEPLOY_VERCEL.md). Конфигурация Vercel уже включена в репозиторий.
 
 ## Как устроен доступ
 
