@@ -6,6 +6,8 @@
 
 ## Для сообщения в hh.ru после публикации
 
-Приложение: [ссылка]. Репозиторий: [ссылка]. Доступы: постановщик [email/пароль], исполнитель 1 [email/пароль], исполнитель 2 [email/пароль].
+Приложение: https://sttokweex.github.io/mini-crm-obekty-zadachi/
+Репозиторий: https://github.com/sttokweex/mini-crm-obekty-zadachi
+Доступы: постановщик manager@example.com / [пароль], исполнитель 1 worker1@example.com / [пароль], исполнитель 2 worker2@example.com / [пароль].
 
 Решения и допущения описаны в README репозитория. Приступил: [дата и время]. Сдал: [дата и время].
