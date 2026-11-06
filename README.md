@@ -11,7 +11,7 @@ React + TypeScript + Vite, Supabase Auth и PostgreSQL. Интерфейс на 
 5. Скопируйте `.env.example` в `.env.local`, впишите `VITE_SUPABASE_URL` и **publishable/anon key** из **Project Settings → API**. Не используйте `service_role` или secret key.
 6. Выполните `npm ci`, затем `npm run dev`. Для проверки production-сборки после настройки переменных — `npm run build`.
 
-Пошаговая публикация на Vercel: [`DEPLOY_VERCEL.md`](DEPLOY_VERCEL.md). Конфигурация Vercel уже включена в репозиторий.
+Пошаговая публикация: [`DEPLOY_GITHUB_PAGES.md`](DEPLOY_GITHUB_PAGES.md) или [`DEPLOY_VERCEL.md`](DEPLOY_VERCEL.md). Конфигурации обеих площадок уже включены в репозиторий.
 
 ## Как устроен доступ
 

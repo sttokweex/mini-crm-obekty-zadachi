@@ -18,8 +18,8 @@ export default defineConfig(({ command, mode }) => {
     let validUrl = false
     try { validUrl = new URL(url).protocol === 'https:' } catch { /* missing or invalid URL */ }
     if (!validUrl || url.includes('your-project') || !key || key.includes('your-publishable') || key.length < 20) {
-      throw new Error('Set VITE_SUPABASE_URL and VITE_SUPABASE_ANON_KEY before building. See DEPLOY_VERCEL.md.')
+      throw new Error('Set VITE_SUPABASE_URL and VITE_SUPABASE_ANON_KEY before building. See the deployment guides.')
     }
   }
-  return { plugins: [react()] }
+  return { base: './', plugins: [react()] }
 })
